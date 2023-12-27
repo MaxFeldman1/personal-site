@@ -24,11 +24,9 @@ function AboutMe() {
 
         <h3>Personal Records</h3>
         <ListGroup className='abmCont'>
-            <ListGroupItem> <h6><b>1600m:</b> 4:57</h6> </ListGroupItem>
-            <ListGroupItem> <h6><b>5000m:</b> 17:21</h6> </ListGroupItem>
+            <ListGroupItem> <h6><b>1 mile:</b> 4:57</h6> </ListGroupItem>
             <ListGroupItem> <h6><b>half marathon:</b> 1:18:53</h6> </ListGroupItem>
             <ListGroupItem> <h6><b>bench press:</b> 285lbs</h6> </ListGroupItem>
-            <ListGroupItem> <h6><b>squat:</b> 335lbs</h6> </ListGroupItem>
             <ListGroupItem> <h6><b>longest programming session:</b> 19 hours</h6> </ListGroupItem>
         </ListGroup>
         <br />
