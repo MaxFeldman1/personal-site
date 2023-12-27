@@ -48,16 +48,13 @@ function Home() {
         );
     }
     return (<>
-        <br />
-        <br />
-        <h1>About Me</h1>
+        <h1>Max Feldman</h1>
         <br />
         <p className='homeCont'>
-            Hello internet, this is the official personal webpage of Max Feldman.
-            I am a Junior at the University of Texas at Austin persuing dual Bachelor of Science degrees in Computer Science and Mathematics.
-            I am also persuing a minor in the Hebrew language.
+            This is the official personal webpage of Max Feldman, a Computer Science & Math major at UT Austin.
         </p>
-        <h4>Degree Progress {pct.toFixed(3)}%</h4>
+        <br />
+        <h4>Degree Progress {pct.toFixed(2)}%</h4>
         <ProgressBar now={pct} className='homeCont' />
         <br />
         <h3>Inspirations</h3>
