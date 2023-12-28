@@ -3,5 +3,11 @@
     margin-left: 150px;
     margin-right: 150px;
     text-align: center;
+}
 
+@media all and (orientation: portrait) {
+    .homeCont {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }

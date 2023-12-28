@@ -25,3 +25,14 @@
     text-align: right;
     margin-right: 20px;
 }
+
+@media all and (orientation: portrait) {
+    .abmCont {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .imgDiv {
+        width: 75%;
+    }
+}

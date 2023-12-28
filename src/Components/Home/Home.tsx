@@ -37,7 +37,7 @@ function Home() {
     for (let i = 0; i < inspLinks.length; i++) {
         inspCards.push(
             <Col className='d-flex'>
-                <Card style={{ width: '18rem' }} className='flex-fill'>
+                <Card className='flex-fill'>
                     <Card.Img variant="top" src={inspLinks[i]} />
                     <Card.Body>
                     <Card.Title>{inspNames[i]}</Card.Title>
